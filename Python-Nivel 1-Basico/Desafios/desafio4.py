@@ -1,0 +1,11 @@
+print("=============Desafio 4============")
+
+nn=input('Digite algo:')
+print('O tipo primitivo desse valor é',type(nn))
+print('Só tem espaço?',nn.isspace())
+print('E numero ?',nn.isnumeric())
+print('E alfabetico ?',nn.isalpha())
+print('E alfanumerico',nn.isalnum())
+print('Esta em maiúsculas ?',nn.isupper())
+print('Esta em minúsculas ?',nn.islower())
+print('Esta em capitalizada ?',nn.istitle())
